@@ -1,0 +1,54 @@
+#The concept of variables
+a=1
+b=3
+a+b
+#change the valuee of a 
+a=2
+a+b
+# a와 b에 들어가는 수가 계속 다르기 때문에 이러한 a,b를 변수라고 한다. 
+age=20
+age+3
+#error 
+age+c
+#Traceback (most recent call last):
+#  File "<stdin>", line 1, in <module>
+# NameError: name 'c' is not defined
+# 주로 오타가 많이 일어남 
+#Defining a variable. 변수의 정의/생성. 
+
+# multiplication
+a=b
+b=3
+a*b
+# division
+a/b
+# Integer QUOTIENT divider
+a//b
+#Remainder 
+a%b 
+#제곱 a**2
+
+a=1
+b=True
+c=3.14
+d='Hello'
+#문자열에 대해 깊이 고민하는 시기는 나중에 올것
+
+#변수의 역할들: 재료를 담아놓는 역할 
+type(a)
+
+#생소한 것은 Bool 일 것이다. True는 참 False 거짓. 컴퓨터의 논리는 참과 거짓, 두 가지로 나뉜다. 즉 'a 가 c 보다 작을 수도 클 수도 있어'같은 말은 여기에 적용되지 않는다.
+#예를 들어 아이디가 맞지 않습니다, 혹은 그렇지 않습니다. 
+a>c
+a<c
+
+#편집기를 쓸것. 
+#cd C:\Users\TJ\Desktop\pre_python(주소는 복붙)
+#type in jupytor notebook 
+
+#파이썬3선택한다>설명을 적는 구간은 markdown으로 변환한다.  
+#shift+Enter: 코드가 실행된다. 
+#jupytor notebook 에서 문자열을 입력할때 print()함수를 쓰도록 한다. 
+
+
+
